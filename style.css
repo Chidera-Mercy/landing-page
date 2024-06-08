@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/hero-new');
+body{
+    font-family: 'Hero New', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    gap: 35px;
+}
+
+#logo{
+    background-color: #e5e7eb;
+    max-width: 200px;
+    height: 100px;
+}
+
+.header-link{
+    text-decoration: none;
+}
+
+.header-link, #hero-secondary-text{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+button, #contact-box{
+    background-color: #3882f6;
+}
+
+button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 8px;
+
+}
+#signup-button{
+    border: none;
+    padding: 15px 35px;
+}
+#email-button{
+    border: 4px solid white;
+    padding:15px 70px;
+    height: 75px;
+}
+
+#hero, #footer{
+    background: #1F2937;
+}
+
+#hero{
+    color: white;
+    padding: 160px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+#hero-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+#hero-text, #hero-image{
+    flex:1;
+}
+#hero-image{
+    max-width: 800px;
+    height: 350px;
+}
+#hero-text{
+    max-width: 600px;
+}
+
+
+#services-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    padding-bottom: 100px;
+}
+#services-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+#services-image-descr{
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+.image-descr{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.services-image, .services-descr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-image{
+    border: 6px solid #3882f6;
+    border-radius: 12px;
+}
+.services-descr{
+    font-size: 22px;
+    color: #1f2937;
+    max-width: 200px;
+    text-align: center;
+}
+
+#quote-section{
+    background-color: #e5e7eb;
+    padding: 150px 250px;
+    color:  #1F2937;
+}
+#quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+#quote-name{
+    text-align: right;
+    font-size: 22px;
+}
+
+#contact-section{
+    padding: 100px 200px;
+    align-items: center;
+    color:white;
+}
+#contact-box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 50px 100px;
+    align-items: center;
+}
+#contact-text2{
+    font-size: 22px;
+}
+
+#footer{
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
